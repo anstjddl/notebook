@@ -1,0 +1,8 @@
+apiVersion: v1
+description: DEP r-notebook
+icon: 
+maintainers:
+- email: anstjddl710@naver.com
+  name: anstjddl710
+name: r-notebook
+version: 0.1.0
