@@ -9,6 +9,6 @@ entries:
     name: r-notebook
     type: application
     urls:
-    - https://anstjddl.github.io/notebook/-notebook.tgz
+    - https://anstjddl.github.io/notebook/r-notebook.tgz
     version: 1.0.1
 generated: "2020-09-27T16:14:21.6933805+09:00"
