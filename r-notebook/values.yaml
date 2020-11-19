@@ -1,0 +1,25 @@
+deptoken: dep
+replicaCount: 1
+image:
+  repository: redii.net:5003/dep/r-notebook
+  tag: latest
+  pullPolicy: Always
+imagePullSecrets:
+- name: redii
+service:
+  name: rnb
+  type: ClusterIP
+  externalPort: 80
+  internalPort: 8888
+ingress:
+  enabled: false
+  domain: sdsdev.deppaas.io
+resources:
+  requests:
+    cpu: 500m
+    memory: 512Mi
+networkPolicy:
+  enabled: true
+  ingress:
+    allowed: true
+timezone: Asia/Seoul
